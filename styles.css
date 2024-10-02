@@ -3,10 +3,31 @@
   padding:0px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+/* Body Background Color */
+body {
+  background-color: #f0f0f5;
+}
+
+/* Header Style */
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Arial', sans-serif;
+  color: #7A4988;
+  margin-top: 20px;
+}
+
+/* Navigation Links */
+nav a {
+  color: #0073e6;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #005bb5;
 }
 
 p {
